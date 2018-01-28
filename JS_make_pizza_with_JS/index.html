@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пицца Меню</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+
+</head>
+<body>
+	<div>
+            <h1>Пицца Меню</h1>
+            <p id="top">Сделай свою пиццу!!!</p>
+            <p><input type="checkbox" checked disabled data-cost="80" data-kkal="500" class="menu">Основа</p>
+                    <h2>Ингридиенты</h2>
+                            <p><input type="checkbox" data-cost="20" data-kkal="40" class="menu">Помидор</p>
+                            <p><input type="checkbox" data-cost="30" data-kkal="70" class="menu">Ананас</p>
+                            <p><input type="checkbox" data-cost="15" data-kkal="20" class="menu">Оливки</p>
+                            <p><input type="checkbox" data-cost="10" data-kkal="10" class="menu">Перец</p>
+                            <p><input type="checkbox" data-cost="25" data-kkal="50" class="menu">Грибы</p>
+                            <p><input type="checkbox" data-cost="30" data-kkal="90" class="menu">Ветчина</p>
+                            <p><input type="checkbox" data-cost="30" data-kkal="75" class="menu">Папперони</p>
+                            <p><input type="checkbox" data-cost="30" data-kkal="80" class="menu">Колбаски</p>
+                            <p><input type="checkbox" data-cost="20" data-kkal="50" class="menu">Курица</p>
+                    <hr>
+                    <h2>Соусы</h2>
+                            <p><input type="checkbox" data-cost="25" data-kkal="100" class="menu">Соус барбекю</p>
+                            <p><input type="checkbox" data-cost="25" data-kkal="110" class="menu">Чесночный соус</p>
+                            <p><input type="checkbox" data-cost="25" data-kkal="100" class="menu">Соус Alfredo</p>
+                    <hr>
+                    <h2>Сыр</h2>
+                            <p><input type="checkbox" data-cost="20" data-kkal="110" class="menu">Моцарелла</p>
+                            <p><input type="checkbox" data-cost="20" data-kkal="120" class="menu">Пармезан</p>
+                            <p><input type="checkbox" data-cost="20" data-kkal="100" class="menu">Данаблю</p>
+                            <p><input type="checkbox" data-cost="20" data-kkal="90" class="menu">Фета</p>
+                    <hr>
+            <p>Итого</p>
+            <p>Каллорийность: <span id="kkal"></span><br> Цена: <span id="cost"></span></p>
+            <button id="result">Рассчитать</button><button id="order">Заказать</button>
+</div>
+</body>
+</html>
